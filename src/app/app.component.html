@@ -1,2 +1,14 @@
+<div>
+  <img [src]="image" width="700">
+  <button (click)="toggleImage()">Toggle</button>
+</div>
+
+
 <input [hidden]="showPassword" type="password" value="abc">
 <input [hidden]="!showPassword" type="text" value="abc">
+
+<div>
+  <input [disabled]="statusDisabled" type="text" id="requestStatus" value="NEW">
+
+</div>
+
