@@ -23,4 +23,12 @@ export class AppComponent {
     this.mia = !this.mia;
   }
 
+  name: string = "";
+  copiedName: string = "";
+
+  copyName(): void 
+  {
+    this.copiedName = this.name;
+  }
+
 }
